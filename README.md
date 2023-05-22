@@ -1,4 +1,4 @@
-# <img src="./img/logo_greenfull.svg" width="50"> HYUNA portfolio
+# <img src="./img/new_logo.svg" width="50"> HYUNA portfolio
 ## 포트폴리오 소개
 - 필요한 정보만 전달하기 위해 깔끔한 디자인이 목적
 - 깔끔하면서 지루하지 않도록 scrollmagic과 애니메이션 효과를 중간중간 넣어줌
