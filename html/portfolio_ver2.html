@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- portfolio.html -->
+<html lang="ko-KR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="portfolio">
+  <meta name="author" content="hyuna">
+  
+  <!-- open graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html">
+  <meta property="og:title" content="ohhyuna portfolio">
+  <meta property="og:image" content="../img/logoplus.png">
+  <meta property="og:description" content="프론트엔드 공부하고 있는 오현아의 포트폴리오를 보여줍니다">
+  <meta property="og:site_name" content="ohhyuna portfolio">
+  <meta property="og:locale" content="ko-KR">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+  
+  <meta property="og:title" content="ohhyuna portfolio">
+  <meta property="og:url" content="https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../img/logoplus.png">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+  <meta property="og:title" content="ohhyuna portfolio">
+  <meta property="og:description" content="현아 포트폴리오">  
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" crossorigin>
+  
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/portfolio_ver2.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
+  <script src="../js/common/modernizr-custom.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+  
+  <title>hyuna portfolio</title>  
+  <link rel="shortcut icon" href="../img/new_logo.svg" type="image/svg">
+  <link rel="apple-touch-icon" href="../img/new_logo.svg">
+  <!-- <link rel="stylesheet" href="../jquery.fullPage.css"> -->
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="headinner">
+        <h1>
+          <button onclick="home()">hyuna <br> portfolio</button>
+        </h1>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="portfolio_part">
+            <a href="../html/portfolio_ver2.html">
+              <span>portfolio</span>
+            </a>
+          </div>
+          <div class="about_part">
+            <a href="#about">
+              <span>about</span>
+            </a>
+          </div>
+          <div class="project_part">
+            <a href="#project">
+              <span>project</span>
+            </a>
+          </div>
+          <div class="clone_part">
+            <a href="#clone">
+              <span>clone</span>
+            </a>
+          </div>
+          <div class="contact_part">
+            <a href="#contact">
+              <span>contact</span>
+            </a>
+          </div>
+        </nav>
+        <div class="header_m">
+          <nav id="unbInner">
+            <h2 class="blind">user navigation</h2>
+            <input type="checkbox" id="check_box">
+            <label for="check_box">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <div id="slide_menu">
+              <div class="slide_inner">
+                <input type="checkbox" id="slide_btn01">
+                <label for="slide_btn01">
+                  <a href="../html/portfolio_main.html">portfolio</a>
+                </label>
+                <input type="checkbox" id="slide_btn02">
+                <label for="slide_btn02">
+                  <a href="#about">about me</a>
+                </label>
+                <input type="checkbox" id="slide_btn03">
+                <label for="slide_btn03">
+                  <a href="#skills">skills</a>
+                </label>
+                <input type="checkbox" id="slide_btn04">
+                <label for="slide_btn04">
+                  <a href="#project">project</a>
+                </label>
+                <input type="checkbox" id="slide_btn05">
+                <label for="slide_btn05">
+                  <a href="#clone">clone</a>
+                </label>
+                <input type="checkbox" id="slide_btn06">
+                <label for="slide_btn06">
+                  <a href="#contact">contact</a>
+                </label>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="main_contant">
+      <!-- portfolio -->
+      <section id="portfolio">
+        <h2 class="blind">포트폴리오 커버</h2>
+        <div class="cover">
+          <img src="../img/cover.jpg" alt="오현아 포트폴리오 커버 이미지">
+          <span>hyuna <br> portfolio</span>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about">
+        <h2 class="blind">about me</h2>
+        <h3>about</h3>
+        <div class="about_inner scroll">
+          <div class="left_part">
+            <div class="profile_img">
+              <img src="../img/about_proflie.png" alt="">
+            </div>
+            <div class="about_text">
+              <span>오현아</span>
+              <div class="line"></div>
+              <p class="name">oh hyuna</p>
+              <p>1999&#46;03&#46;23</p>
+              <p>010&#46;6481&#46;5231</p>
+              <p>gusdk99323&#64;gmail&#46;com</p>
+            </div>
+          </div>
+          <div class="right_part">
+            <div class="introduction_part">
+              <span>커뮤니케이션 능력과 배우는 재미를 아는 퍼블리셔</span>
+              <p>퍼블리셔는 디자이너와 개발자 사이를 연결하는 다리라고 생각합니다&#46; <br>
+                직업 능력 개발 훈련 과정인 &#91;UI&#38;UX 프론트엔드&#95;react&#46;js&#93; 과정을 수료하여 퍼블리셔로서의 능력을 함양했습니다&#46; <br>
+                또한&#44; 비서로 일하며 키운 커뮤니케이션 능력과 발전하고자 하는 열정으로 한해가 다르게 크는 퍼블리셔&#44; 침착함과 꼼꼼함으로 문제를 빠르게 찾아 해결하는 퍼블리셔가 되겠습니다&#46;
+              </p>
+            </div>
+            <h4 class="sub_title">education</h4>
+            <ul>
+              <li>2021&#46; 02 대림대학교 비서사무행정과 졸업</li>
+              <li>2018&#46; 02 동안고등학교 졸업</li>
+            </ul>
+            <h4 class="sub_title">work</h4>
+            <ul>
+              <li>2021&#46; 09 &#45; 2022&#46; 01 UI&#38;UX 프론트엔드&#95;react&#46;js 과정 수료</li>
+              <li>2021&#46; 05 &#45; 2022&#46; 08 &#40;주&#41; 이지놈 인턴</li>
+            </ul>
+            <h4 class="sub_title">skill</h4>
+            <div class="skill">
+              <div class="html">
+                <img src="../img/skill_html.svg" alt="html skill 90%">
+              </div>
+              <div class="css">
+                <img src="../img/skill_css.svg" alt="css skill 90%">
+              </div>
+              <div class="javascript">
+                <img src="../img/skill_javascript.svg" alt="javascript skill 60%">
+              </div>
+              <div class="react">
+                <img src="../img/skill_react.svg" alt="react skill 30%">
+              </div>
+              <div class="figma">
+                <img src="../img/skill_figma.svg" alt="figma skill 90%">
+              </div>
+              <div class="git">
+                <img src="../img/skill_git.svg" alt="git hub skill 70%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- project -->
+      <section id="project">
+        <h3>project</h3>
+        <div class="project_inner">
+          <div class="project_01 project">
+            <img src="../img/ohoulogo.png" alt="">
+            <p>&#35; 첫번째 프로젝트</p>
+            <p>&#35; 기여도 100%</p>
+            <p>&#35; 반응형</p>
+            <div class="project_contact01">
+              <button class="btn" onclick="ohouModal()">plan</button>
+              <button class="web_btn" onclick="ohou()">web</button>
+            </div>
+          </div>
+          <div class="project_02 project">
+            <img src="../img/ediyalogo.png" alt="">
+            <p>&#35; 두번째 프로젝트</p>
+            <p>&#35; 기여도 100%</p>
+            <p>&#35; 반응형</p>
+            <div class="project_contact02">
+              <button class="btn" onclick="ediyaModal()">plan</button>
+              <button class="web_btn" onclick="ediya()">web</button>
+            </div>
+          </div>
+          <div class="project_03 project">
+            <img src="../img/portfoilologo_ver2.svg" alt="">
+            <p>&#35; 포트폴리오</p>
+            <p>&#35; 자체제작 사이트</p>
+            <p>&#35; 기여도 100%</p>
+            <p>&#35; 반응형</p>
+            <div class="project_contact03">
+              <button class="btn" onclick="portfoiloaModal()">plan</button>
+              <button class="web_btn" onclick="portfolio()">web</button>
+            </div>
+          </div>
+          <div class="project4_5">
+            <div class="project_05 project">
+              <img src="../img/interactive_logo.svg" alt="">
+              <p>&#35; interactive learning 사이트</p>
+              <p>&#35; 반응형</p>
+              <div class="project_contact05">
+                <button class="btn" onclick="interactiveModal()">plan</button>
+                <button class="web_btn" onclick="interactive()">web</button>
+              </div>
+            </div>
+            <div class="project_04 project">
+              <img src="../img/oflogo.png" alt="">
+              <p>&#35; 네번째 프로젝트</p>
+              <p>&#35; 자체제작 사이트</p>
+              <p>&#35; 기여도 100%</p>
+              <p>&#35; 반응형</p>
+              <div class="project_contact04">
+                <button class="btn" onclick="ofModal()">plan</button>
+                <button class="web_btn" onclick="ofproject()">web</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- clone -->
+      <section id="clone">
+        <h2 class="blind">clone coding</h2>
+        <h3>clone</h3>
+        <div class="clone_inner scroll">
+          <div class="clone_top">
+            <div class="clone_coupang">
+              <a href="https://hyuna323.github.io/clone_coupang/html/01_coupang_clone.html" target="_blank">
+                <img src="../img/coupang_logo.svg" alt="">
+              </a>
+              <span class="inner_title">쿠팡 로그인 페이지</span>
+            </div>
+            <div class="clone_naver">
+              <a href="https://hyuna323.github.io/clone_naver/html/01_naver_clone.html" target="_blank">
+                <img src="../img/naver_logo.svg" alt="">
+              </a>
+              <span class="inner_title">네이버 회원가입 페이지</span>
+            </div>
+          </div>
+          <div class="clone_bottom">
+            <div class="clone_google">
+              <a href="https://hyuna323.github.io/clone_google/html/01_google_clone.html" target="_blank">
+                <img src="../img/google_logo.svg" alt="">
+              </a>
+              <span class="inner_title">구글 로그인 페이지</span>
+            </div>
+            <div class="clone_sfotify">
+              <a href="https://hyuna323.github.io/clone_spotify/html/01_spotify_clone.html" target="_blank">
+                <img src="../img/spotify_logo.svg" alt="">
+              </a>
+              <span class="inner_title">스포티파이 메인 페이지</span>
+            </div>
+          </div>
+        </div>
+        <p>*모든 클론 코딩은 pc size 기준으로 제작되었습니다&#46;</p>
+      </section>
+
+      <!-- contact -->
+      <section id="contact">
+        <h2 class="blind">contact</h2>
+        <div class="contact_logo">
+          <h3>contact</h3>
+        </div>
+        <div class="contact_inner scroll">
+          <div class="email">
+            <a href="mailto:gusdk99323@gmail.com">gusdk99323&#64;gmail&#46;com</a>
+          </div>
+          <div class="contact_text">
+            <ul>
+              <li>부족한 제 포트폴리오를 끝까지 봐주셔서 감사합니다&#46;</li>
+              <li>궁금한 점이 있으시면 연락주시기 바랍니다&#46;</li>
+              <li>연락주시면 3일이내 회신드리겠습니다&#46;</li>
+              <li>감사합니다 &#58;&#41;</li>
+            </ul>
+          </div>
+          <div class="contect_info">
+            <P>copyright&#169; 2023 hyuna&#46; all rights reserved&#46;</p>
+            <a href="https://github.com/hyuna323">github</a>
+            <a href="../download/웹퍼블리셔_오현아.docx">이력서</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- script -->
+  <script src="../js/src/portfolio_ver2.js"></script>
+  
+</body>
+</html>

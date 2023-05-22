@@ -1,0 +1,7 @@
+/* Nportfolio_main.css */
+@import url("../portfolio/a_base.css");
+@import url("../portfolio/b_smartphone.css");
+@import url("../portfolio/c_tablet.css");
+@import url("../portfolio/d_laptop.css");
+@import url("../portfolio/e_pc.css");
+@import url("../portfolio/f_pcfull.css");

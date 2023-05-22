@@ -1,0 +1,25 @@
+html,body {
+  /* overflow: hidden; */
+  margin: 0;
+  height: 100%;
+}
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* @font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  font-family: 'Pretendard-Regular';
+} */
+#wrap {width: 960px; height: auto; min-height: 600px;
+}
+
+#headBox {width: 100%;}
+#viewBox {margin: auto;}
+#footBox {width: 100%;}
+/* a_base.css *
