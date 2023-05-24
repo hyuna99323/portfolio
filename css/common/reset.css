@@ -8,7 +8,7 @@ html,body {
 ::-webkit-scrollbar {
   display: none;
 }
-
+*{color: #000;}
 html,body,
 h1,h2,h3,h4,h5,h6,
 p,pre,blockquote,address,
