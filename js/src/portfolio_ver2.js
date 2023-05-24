@@ -8,3 +8,6 @@
     navigationPosition:'right',
 	});
 });
+
+
+document.contectInfo.href = '../download/publisher.docx';
