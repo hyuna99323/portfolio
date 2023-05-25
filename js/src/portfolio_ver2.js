@@ -9,5 +9,5 @@
 	});
 });
 
-
-document.contectInfo.href = '../download/publisher.docx';
+// 이력서 다운로드
+document.contect_info.href = '../download/publisher.pdf';
