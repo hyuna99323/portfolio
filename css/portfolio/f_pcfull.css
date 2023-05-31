@@ -586,11 +586,12 @@
     display: block;
   }
   .clone_top {
+    width: 50%;
     display: flex;
     margin-right: 10px;
   }
   .clone_top div {
-    width: 49.0756%;
+    width: 50%;
     height: 201px;
     border: solid 1px #000;
   }
@@ -606,10 +607,11 @@
     text-align: center;
   }
   .clone_bottom {
+    width: 50%;
     display: flex;
   }
   .clone_bottom div {
-    width: 49.0756%;
+    width: 50%;
     height: 201px;
     border: solid 1px #000;
   }

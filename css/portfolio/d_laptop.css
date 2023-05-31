@@ -567,11 +567,12 @@
     display: block;
   }
   .clone_top {
+    width: 50%;
     display: flex;
     margin-right: 10px;
   }
   .clone_top div {
-    width: 267px;
+    width: 50%;
     height: 186px;
     border: solid 1px #000;
   }
@@ -587,10 +588,11 @@
     text-align: center;
   }
   .clone_bottom {
+    width: 50%;
     display: flex;
   }
   .clone_bottom div {
-    width: 267px;
+    width: 50%;
     height: 186px;
     border: solid 1px #000;
   }
