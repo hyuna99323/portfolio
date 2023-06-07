@@ -29,6 +29,7 @@
     width: 100%;
     height: 100%;
     margin: auto;
+    font-family: 'Sriracha', cursive;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -51,7 +52,7 @@
   /* page 이동 */
   /* portfoilo button */
   .portfolio_part {
-    width: 33%;
+    width: 27%;
     height: 100%;
     line-height: 80px;
   }
@@ -200,13 +201,15 @@
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 51.5%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    font-size: 50px;
-    letter-spacing: 20px;
-    font-weight: 400;
-    color: #fff;
+    font-family: 'Sriracha', cursive;
+    font-size: 65px;
+    letter-spacing: 43px;
+    font-weight: 500;
+    line-height: 110px;
+    color: #000;
   }
   
   
@@ -232,6 +235,7 @@
     height: auto;
     margin: auto;
     padding-top: 20px;
+    font-family: 'Sriracha', cursive;
     font-size: 20px;
     letter-spacing: 12px;
     font-weight: 500;
@@ -292,6 +296,7 @@
     margin-top: 10px;
   }
   .sub_title {
+    font-family: 'Sriracha', cursive;
     font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
