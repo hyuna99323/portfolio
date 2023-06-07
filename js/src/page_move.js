@@ -1,6 +1,6 @@
 // page move -----------------------------
 function home(){
-  let url = "https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html";
+  let url = "https://hyuna323.github.io/portfolio/html/portfolio_ver2.html";
   window.location = url;
 }
 
