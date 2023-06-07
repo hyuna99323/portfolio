@@ -23,6 +23,7 @@
     width: 40%;
     height: 100%;
     margin: auto;
+    padding-top: 20px;
   }
   .headinner h1 button {
     width: 100%;
@@ -287,6 +288,7 @@
   .introduction_part p {
     font-size: 16px;
     font-weight: 300;
+    line-height: 20px;
     margin-top: 10px;
   }
   .sub_title {
@@ -299,6 +301,7 @@
   }
   .right_part ul li {
     font-size: 16px;
+    line-height: 20px;
   }
   .skill {
     display: flex;
