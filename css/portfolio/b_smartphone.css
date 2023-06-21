@@ -541,12 +541,19 @@
     width: 100%;
     height: auto;
   }
-  .clone_inner img {
-    width: 90px;
+  .clone_logo {
+    width: 100%;
     height: 100%;
     margin: auto;
-    margin-bottom: 10px;
-    display: block;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    color: #566270;
+  }
+  .clone_logo:hover {
+    color: orange;
   }
   .inner_title {
     width: 100%;

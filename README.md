@@ -30,7 +30,7 @@
 -> 리액트를 추가적으로 공부하여 리액트를 적용한 포트폴리오를 만드는 것이 목표
 
 ---
-## <a href="https://hyuna323.github.io/portfolio/" color="#000">HYUNA PORTFOLIO</a>
+## <a href="https://hyuna99323.github.io/portfolio/" color="#000">HYUNA PORTFOLIO</a>
 <details>
 <summary>click me🖱️</summary>
 <details>
