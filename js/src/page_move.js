@@ -1,27 +1,27 @@
 // page move -----------------------------
 function home(){
-  let url = "https://hyuna99323.github.io/portfolio/html/portfolio_ver2.html";
+  let url = "https://gregarious-conkies-0e9ccd.netlify.app/html/portfolio_ver2.html";
   window.location = url;
 }
 
 function ohou(){
-  window.open("https://hyuna99323.github.io/ohou_project/html/01_prototype_1280_main.html", "_blank");
+  window.open("https://main--dashing-elf-ee36a3.netlify.app/html/01_prototype_1280_main.html", "_blank");
 }
 
 function ediya(){
-  window.open("https://hyuna99323.github.io/ediya_project/html/01_ediya_main.html", "_blank");
+  window.open("https://main--ornate-sorbet-7af1cf.netlify.app/html/01_ediya_main.html", "_blank");
 }
 
 function portfolio(){
-  window.open("https://hyuna99323.github.io/portfolio/html/portfolio_ver2.html", "_blank");
+  window.open("https://gregarious-conkies-0e9ccd.netlify.app/html/portfolio_ver2.html", "_blank");
 }
 
 function ofproject(){
-  window.open("https://hyuna99323.github.io/OF_project/html/ofproject.html", "_blank");
+  window.open("#", "_blank");
 }
 
 function interactive(){
-  window.open("https://hyuna99323.github.io/interactive_learning/html/interactive_main.html", "_blank");
+  window.open("#", "_blank");
 }
 
 // notion으로 이동
